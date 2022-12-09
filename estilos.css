@@ -1,0 +1,81 @@
+
+
+body{
+  background:#FF8F00 ;
+  background-size: cover;
+  color:  #F0F3F4;
+margin: 20px;
+}
+p{
+  font-size: 30px;
+  font-family: "Book Antiqua";
+  color:#D5DBDB;
+  text-align:left;
+  background: URL(img/fondoo.jpg);
+  background-size: cover;
+  text-shadow: 2px 2px 1px #000;
+}
+
+
+h1{
+  font-size: 40px;
+
+  font-family: "Broadway";
+}
+
+h2{
+  font-size: 40px;
+    font-family: "Broadway";
+
+color: #FBFCFC;
+}
+h3{
+  font-family: "Broadway";
+  font-size: 40px;
+
+  color: #FBFCFC;
+}
+
+nav{
+  max-width: 900px;
+  margin:auto;
+  background: color: #333;
+  font-size:20px;
+  margin-top: 50px;
+}
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-horizontal > li > a{
+  display: block;
+  padding: 25px 20px;
+  color:#FBFCFC;
+  text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+  background-color:#F4D03F;
+}
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width:200px
+  background-color: #17202A;
+
+}
+.menu-horizontal li:hover .menu-vertical{
+  font-family: "Book Antiqua";
+  display: block;
+}
+.menu-vertical li:hover{
+  background-color:black ;
+}
+.menu.vertical li a{
+  display: block;
+  color: #
+  padding: 15px 15px 15x 20px;
+  text-decoration: none;
+}
